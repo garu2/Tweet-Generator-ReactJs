@@ -1,0 +1,235 @@
+
+.twitCard {
+    width: 600px;
+    border: 1px solid #e8eff3;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.twitCard picture img {
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+    border: 1px solid #e8eff3;
+}
+.userImage svg {
+    border-radius: 50%;
+}
+/* header card */
+.twitCard header {
+    display: flex;
+    justify-content: space-between;
+}
+.twitCard header div {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.twitCard header h3, .twitCard header p {
+    margin: 0;
+    color: #536471;
+}
+.twitCard header h3 {
+    color: #0f1419;
+}
+
+/* footer card */
+.twitCard footer {
+    display: flex;
+}
+.twitCard footer > div {
+    width: 24%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #536471;
+    font-size: 14px;
+}
+
+.content p {
+    margin-right: 25px;
+    text-align: left;
+}
+.content p span{
+    color: #1da1f2;
+}
+.content footer {
+    margin-top:  10px;
+}
+/* Form inputs */
+.formInputs {
+    margin-top: 30px;
+    position: relative;
+    padding-top: 47px;
+    display: flex;
+    justify-content: center;
+}
+.formInputs form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+.formInputs form div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    width: 100%;
+}
+.formInputs form > span:last-of-type {
+    /* width: 88%; */
+}
+/* .formInputs form span:nth-child(1) {
+    flex-grow: 1;
+}
+.formInputs form span:nth-child(2) {
+    flex-grow: 1;
+}
+.formInputs form span:nth-child(3) {
+    flex-grow: 1;
+}
+.formInputs form span:nth-child(4) {
+    flex-grow: 1;
+}
+.formInputs form span:nth-child(5) {
+    flex-grow: 1;
+}
+.formInputs form span:nth-child(6) {
+    flex-grow: 1;
+}
+.formInputs form span:nth-child(7) {
+    flex-grow: 1;
+} */
+.formInputs form span > button {
+    height: 100%;
+    border-radius: 10px;
+    font-size: 17px;
+    background-color: #fff;
+    width: 100%;
+    color: #1da1f2;
+    font-weight: 500;
+    border: 1px solid #5BC0F8;
+    cursor: pointer;
+    transition: .5s;
+}
+button.btnVerified {
+    background-color: #5BC0F8!important;
+    color: #fff!important;
+}
+.formInputs form span input {
+    width: 90%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+.formInputs form span input[type="text"],
+.formInputs form span input[type="number"],
+.formInputs form span input[type="datetime-local"] {
+    padding: 10px;
+}
+.formInputs form span label {
+    font-size: 17px;
+    margin-bottom: 6px;
+    display: inline-block;
+}
+.formInputs form span textarea {
+    width: 90%;
+    resize: none;
+    margin-top: 14px;
+    padding: 17px;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+.formInputs form span{
+    /* border: 1px solid gray; */
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #FFC93C;
+    flex-grow: 1;
+}
+.container {
+    max-width: 1000px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/* hero styles */
+.hero {
+    /* background: #5BC0F8; */
+    background: linear-gradient(360deg, #86E5FF 20% , #0081C9 80%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 5px;
+    position: relative;
+}
+/* .hero:after {
+    content: "";
+    display: block;
+    background: url(/public/wave.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 100%;
+    bottom: 0;
+    top: 0;
+
+} */
+.bgWave {
+    background: url(/public/mountains.svg);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.hero h1 {
+    margin: 0 0 76px;
+    font-size: 57px;
+    line-height: 50px;
+    color: #fff;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.btnDownload {
+    background-color: #5BC0F8;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 20px 60px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    margin-top: 70px;
+    cursor: pointer;
+    transition: .5s background ;
+}
+.btnDownload:hover {
+    color: #5BC0F8;
+    background-color: #fff;
+    background-color: #fff;
+
+}
+
+.images {
+    width: 100%;
+    height: 281px;
+    border: 1px solid #c4cfd6;
+    border-radius: 20px;
+}
+/* one images */
+.images img {
+    width: 100%;
+    height: 279px;
+    border-radius: 20px;
+    object-fit: cover;
+}
