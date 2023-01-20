@@ -1,3 +1,5 @@
+//https://stackoverflow.com/questions/9461621/format-a-number-as-2-5k-if-a-thousand-or-more-otherwise-900
+
 export const formatCount = number => {
     let num = parseInt(number, 10);
     const digits = 1;

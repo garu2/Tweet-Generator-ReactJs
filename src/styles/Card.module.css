@@ -80,30 +80,7 @@
     gap: 5px;
     width: 100%;
 }
-.formInputs form > span:last-of-type {
-    /* width: 88%; */
-}
-/* .formInputs form span:nth-child(1) {
-    flex-grow: 1;
-}
-.formInputs form span:nth-child(2) {
-    flex-grow: 1;
-}
-.formInputs form span:nth-child(3) {
-    flex-grow: 1;
-}
-.formInputs form span:nth-child(4) {
-    flex-grow: 1;
-}
-.formInputs form span:nth-child(5) {
-    flex-grow: 1;
-}
-.formInputs form span:nth-child(6) {
-    flex-grow: 1;
-}
-.formInputs form span:nth-child(7) {
-    flex-grow: 1;
-} */
+
 .formInputs form span > button {
     height: 100%;
     border-radius: 10px;
@@ -171,17 +148,7 @@ button.btnVerified {
     padding-bottom: 5px;
     position: relative;
 }
-/* .hero:after {
-    content: "";
-    display: block;
-    background: url(/public/wave.svg);
-    position: absolute;
-    background-repeat: no-repeat;
-    width: 100%;
-    bottom: 0;
-    top: 0;
 
-} */
 .bgWave {
     background: url(/public/mountains.svg);
     width: 100%;
